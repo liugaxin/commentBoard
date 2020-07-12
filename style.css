@@ -1,0 +1,114 @@
+body {
+	background-color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.warning {
+	background: #ffc4c6;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	color: #a20606;
+}
+
+.board {
+	background: white;
+	margin: 20px auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 600px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #e8e8e8;
+}
+.board .board__btn {
+	padding: 10px;
+	border: 1px solid #c2dffb;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #583c63;
+	width: 100px;
+	text-decoration: blink;
+	display: inline-block;
+	text-align: center;
+}
+
+.board__title {
+	color: black;
+}
+
+.board__nickname {
+	margin: 5px;
+	font-size: 12px;
+}
+
+.board__nickname input{
+	padding: 6px;
+}
+
+.board__submit__form textarea {
+	width: 100%;
+	margin: 10px 0;
+	padding: 2px;
+	border: 1px solid #c2dffb;
+	font-size: 16px;
+}
+
+.board__submit_btn {
+	padding: 6px;
+	margin-bottom: 6px;
+	border: 1px solid #c2dffb;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #583c63;
+	width: 100px;
+}
+
+.board__hr {
+	padding: 20px auto;
+	height: 2px;
+	background: #e8e8e8;
+	max-width: 95%;
+}
+
+.card {
+	margin: 10px;
+	min-height: 70px;
+	padding: 10px;
+	display: flex;
+}
+
+.card__avatar {
+	min-width: 50px;
+	width: 50px;
+	height:  50px;
+	border-radius: 50%;
+	background: #c2dffb;
+}
+
+.card__body {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.card__author {
+	color: #5c9edc;
+	font-weight: bold;
+}
+
+.card__time {
+	color: #a0a0a0;
+}
+
+.card__content {
+	margin-top: 8px;
+	max-width: 100%;
+	white-space: pre-line;
+	word-break: break-word;
+}
+
+.error {
+	color: #a20606;
+}
